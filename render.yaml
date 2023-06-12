@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: NewBing-Web
+    env: docker
+    repo: https://github.com/aishui8633/NewBing-Web.git 
+    region: oregon 
+    plan: free 
+    branch: master 
+    rootDir: ./
